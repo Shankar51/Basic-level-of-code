@@ -2,6 +2,7 @@ package per;
 import java.util.Scanner;
 
 public class Ss {
+	
 
 	public static void main(String[] args) {
 		Scanner scan=new Scanner(System.in);
@@ -19,6 +20,7 @@ public class Ss {
 		
 	//1. find the factors of given number	
 	static void factor(int n){
+		
 	for(int i=1;i<=n;i++)
 	{
 		if(n%i==0)
